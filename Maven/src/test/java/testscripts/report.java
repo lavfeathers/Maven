@@ -17,6 +17,7 @@ public class report {
 	ExtentTest test=report.startTest("Login");
 	@Test
 	public void demo() {
+		//launch the browser
 		WebDriver driver=new ChromeDriver();
 		test.log(LogStatus.INFO, "Chrome Browser Launcher");
 		driver.manage().window().maximize();
